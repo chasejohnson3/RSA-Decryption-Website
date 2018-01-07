@@ -18,6 +18,30 @@
     <input type="submit" value="Encrypt">
   </form>
 
+  <script>
+  function output(){
+    alert("Hello World!");
+    alert("It's Chase");
+
+  }
+  function writingCoolStuff()
+  {
+    if (document.getElementById("5").innerText == "Click Me!")
+    {
+      document.getElementById("5").innerText = "Cool Stuff";
+    }
+    else
+    {
+      document.getElementById("5").innerText = "Click Me!";
+    }
+  }
+  </script>
+
+  <?php
+    echo "test"
+  ?>
+
+
   RSA Decryptor
   <form>
     Ciphertext:
@@ -26,5 +50,8 @@
     <input type="text" name="key">
     <input type="submit" value="Decrypt">
   </form>
+  <button type="button" onclick=writingCoolStuff() id=5>
+    Click Me!
+  </button>
   </body>
 </html>
