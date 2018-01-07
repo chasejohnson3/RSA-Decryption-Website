@@ -13,10 +13,9 @@
     <input type="text" name="q">
     k
     <input type="text" name="k">
-    test
-    <input type="text">
+    Message:
+    <input type="text" name="msg">
     <input type="submit" value="Decode">
-
   </form>
   </body>
 </html>
