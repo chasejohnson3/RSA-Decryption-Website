@@ -5,7 +5,7 @@
     <title>title</title>
   </head>
   <body>
-  RSA Decryptor
+  RSA Encryptor
   <form>
     p
     <input type="text" name="p">
@@ -15,7 +15,16 @@
     <input type="text" name="k">
     Message:
     <input type="text" name="msg">
-    <input type="submit" value="Decode">
+    <input type="submit" value="Encrypt">
+  </form>
+
+  RSA Decryptor
+  <form>
+    Ciphertext:
+    <input type="text" name="ct">
+    key
+    <input type="text" name="key">
+    <input type="submit" value="Decrypt">
   </form>
   </body>
 </html>
